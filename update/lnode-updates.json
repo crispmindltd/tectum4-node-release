@@ -2,7 +2,7 @@
     "windows-desktop-x64":{
         "version":"4.0.101",
         "timestamp":1738239800,
-        "path":"https://raw.githubusercontent.com/crispmindltd/tectum4-node-release/refs/heads/main/update/windows/lnode.zip",
+        "path":"https://github.com/crispmindltd/tectum4-node-release/blob/main/win64/LNode.zip",
         "description":"#v4.0.101 Beta new version:
 1. Stabilize network connection between members of network
 2. Developed UX/UI interface for validators node
@@ -14,7 +14,7 @@
     "windows-console-x64":{
         "version":"4.0.101",
         "timestamp":1738239800,
-        "path":"https://raw.githubusercontent.com/crispmindltd/tectum4-node-release/refs/heads/main/update/windows/lnodeconsole.zip",
+        "path":"https://github.com/crispmindltd/tectum4-node-release/blob/main/win64/lnodeconsole.zip",
         "description":"#v4.0.101 Beta new version:
 
 1. Stabilize network connection between members of network
@@ -27,7 +27,7 @@
     "linux-console-x64":{
         "version":"4.0.101",
         "timestamp":1738239800,
-        "path":"https://raw.githubusercontent.com/crispmindltd/tectum4-node-release/refs/heads/main/update/linux/lnodeconsole.zip",
+        "path":"https://github.com/crispmindltd/tectum4-node-release/blob/main/linux/lnodeconsole",
         "description":"#v4.0.101 Beta new version:
 
 1. Stabilize network connection between members of network
