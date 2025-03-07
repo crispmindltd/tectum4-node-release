@@ -22,10 +22,10 @@ Tectum Blockchain Node supports the following types of requests:
 ### Coin operations: ###
 
 -   **[POST /coins/transfer](https://github.com/crispmindltd/tectum4-node-validator/tree/main/docs/tokens_transfer_request.md)**: To transfer TET between two addresses
+-   **GET /coins/transfer?id=N**: Retrieve full information of transfer for the TET
 -   **[GET /coins/transfers](https://github.com/crispmindltd/tectum4-node-validator/tree/main/docs/token_transfer_history.md)**: Retrieve the transfer history for the TET
 -   **[POST /coins/stake](https://github.com/crispmindltd/tectum4-node-validator/tree/main/docs/tokens_stake_request.md)**: Staking TET to become a network validator
 -   **POST /coins/migrate**: Migrate TET to new address
--   **[GET /coins/transfer?id=N]**: Retrieve full information of transfer for the TET
 -   **[GET /coins/balance/byaddress](https://github.com/crispmindltd/tectum4-node-validator/tree/main/docs/token_balance_request.md)**: Retrieve TET balance by address
 -   **[GET /coins/transfers/user](https://github.com/crispmindltd/tectum4-node-validator/tree/main/docs/tet_transfer_history_user.md)**: Retrieve the TET transfer history for a specific user
 
