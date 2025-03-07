@@ -2,7 +2,7 @@
     "windows-desktop-x64":{
         "version":"4.0.103",
         "timestamp":1741336200,
-        "path":"https://github.com/crispmindltd/tectum4-node-release/blob/main/win64/tectumnode.zip",
+        "path":"https://raw.githubusercontent.com/crispmindltd/tectum4-node-release/refs/heads/main/win64/tectumnode.zip",
         "description":"#v4.0.103 Beta new version:
 1. Stabilize network protocol between validators and archivers
 2. New endpoint GET /coins/transfer?id=number_transaction - retrieve full information of transfer for the TET
@@ -11,7 +11,7 @@
     "windows-console-x64":{
         "version":"4.0.103",
         "timestamp":1741336200,
-        "path":"https://github.com/crispmindltd/tectum4-node-release/blob/main/win64/tectumconsole.zip",
+        "path":"https://raw.githubusercontent.com/crispmindltd/tectum4-node-release/refs/heads/main/win64/tectumconsole.zip",
         "description":"#v4.0.103 Beta new version:
 1. Stabilize network protocol between validators and archivers
 2. New endpoint GET /coins/transfer?id=number_transaction - retrieve full information of transfer for the TET
@@ -20,7 +20,7 @@
     "linux-console-x64":{
         "version":"4.0.103",
         "timestamp":1741336200,
-        "path":"https://github.com/crispmindltd/tectum4-node-release/blob/main/linux/tectumconsole",
+        "path":"https://raw.githubusercontent.com/crispmindltd/tectum4-node-release/refs/heads/main/linux/tectumconsole",
         "description":"#v4.0.103 Beta new version:
 1. Stabilize network protocol between validators and archivers
 2. New endpoint GET /coins/transfer?id=number_transaction - retrieve full information of transfer for the TET
