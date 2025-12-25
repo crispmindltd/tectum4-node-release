@@ -13,7 +13,15 @@ The network node offers the following functionalities for participants:
 6. Viewing blockchain chains.
 
 ## Web Server ##
-Tectum Blockchain Node includes a local web server that processes requests. It provides explorer functions, allowing users to view information about blocks and transactions, as well as an interface for creating new tokens, staking tokens, becoming a validator, performing transfers, and managing keys.
+Tectum Blockchain Node includes a local web server that processes requests. It provides explorer functions, allowing users to view information about blocks and transactions, staking tokens, becoming a validator, performing transfers, and managing keys.
+
+Settings for web serever in `settings.ini` section `[http]`:
+
+```
+[http]
+enabled=true
+port=8917
+```
 
 ## Endpoints ##
 
@@ -36,6 +44,7 @@ Tectum Blockchain Node supports the following types of requests:
 
 - **[GET /token/balance/byaddress](https://github.com/crispmindltd/tectum4-node-validator/tree/main/docs/coin_operations/GET_token_balance_byAddress.md)**: Get the token balance by the cryptocurrency address
 - **[POST /token/mint](https://github.com/crispmindltd/tectum4-node-validator/tree/main/docs/coin_operations/POST_token_mint.md)**: Creating a new token
+- **[POST /token/burn](https://github.com/crispmindltd/tectum4-node-validator/tree/main/docs/coin_operations/POST_token_burn.md)**: Burn a liquidity token
 - **[GET /token/info](https://github.com/crispmindltd/tectum4-node-validator/tree/main/docs/coin_operations/GET_token_info.md)**: Getting token information by ticker
 - **[POST /token/transfer](https://github.com/crispmindltd/tectum4-node-validator/tree/main/docs/coin_operations/POST_token_transfer.md)**: Transfer tokens between two cryptocurrency addresses
 
